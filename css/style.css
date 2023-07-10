@@ -46,7 +46,8 @@ body {
     text-transform: uppercase;
     transition: .5s;
 }
-.banner-text .shop-btn:hover{
+
+.banner-text .shop-btn:hover {
     border: 1px solid #000;
     background: transparent;
     color: #272727;
@@ -145,13 +146,50 @@ main .featured-p {
     margin-left: 40px;
     margin-top: 5px;
 }
-.img-title{
+
+.img-title {
     display: flex;
     justify-content: space-around;
     margin-top: 10px;
 }
-.text-1-2-3 .img-p{
+
+.text-1-2-3 .img-p {
     font-size: 16px;
     text-decoration: underline;
     font-weight: 600;
 }
+
+/*  Featured section end */
+/* group section start */
+.group-01 .img {
+    display: flex;
+    justify-content: space-around;
+    height: 280px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    align-items: center;
+    margin: 100px;
+}
+
+.logo .g-123 {
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+}
+.logo .group-p{
+    font-size: 16px;
+    font-weight: 600;
+}
+#img1{
+    margin-left: 85px;
+}
+#text-2{
+    margin-right: 50px;
+}
+#img2{
+    margin-left: 85px;
+}
+#img3{
+    margin-left: 50px;
+}
+/* group section end */
