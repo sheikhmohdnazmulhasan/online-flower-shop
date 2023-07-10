@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Lato;
+}
+
+/* banner section start */
+.banner {
+    display: flex;
+    background: rgba(229, 84, 115, 0.10);
+    width: 1920px;
+    height: 700px;
+}
+
+.banner-text .lets {
+    color: #272727;
+    font-size: 65px;
+    font-weight: 800;
+    line-height: 1.3em;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+.banner-text .banner-info {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.3em;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.banner-text .shop-btn {
+    color: #fff;
+    font-size: 15px;
+    margin-left: 100px;
+    margin-top: 30px;
+    padding: 15px 40px;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    background: #E55473;
+}
+
+.banner-img .banner-1st-img {
+    width: 550px;
+    height: 700px;
+}
+/* banner section end */
