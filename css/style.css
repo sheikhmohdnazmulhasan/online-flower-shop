@@ -106,7 +106,8 @@ main .featured-p {
     background: rgba(167, 33, 98, 0.15);
     transition: .5s;
 }
-.f-1:hover{
+
+.f-1:hover {
     background: #FF78C4;
 }
 
@@ -118,7 +119,8 @@ main .featured-p {
     background: rgba(5, 151, 160, 0.15);
     transition: .5s;
 }
-.f-2:hover{
+
+.f-2:hover {
     background: #DB005B;
 }
 
@@ -131,7 +133,8 @@ main .featured-p {
     transition: .5s;
 
 }
-.f-3:hover{
+
+.f-3:hover {
     background: #F79327;
 }
 
@@ -211,6 +214,7 @@ main .featured-p {
 }
 
 /* group section end */
+/* hot deal section start */
 .hot-deal {
     display: flex;
     justify-content: space-around;
@@ -243,7 +247,8 @@ main .featured-p {
     flex-shrink: 0;
     margin-top: 80px;
 }
-.hot-text .sign-up-btn{
+
+.hot-text .sign-up-btn {
     color: #fff;
     font-size: 15px;
     margin-left: 180px;
@@ -259,8 +264,41 @@ main .featured-p {
     transition: .5s;
     text-align: center;
 }
-.hot-text .sign-up-btn:hover{
+
+.hot-text .sign-up-btn:hover {
     border: 1px solid #000;
     background: transparent;
     color: #272727;
+}
+
+/* hot deal section end */
+.instagram{
+    margin: 0px 20px 0px 20px;
+}
+.insta-text h1 {
+    color: #272727;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.insta-text p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.3em;
+    margin-bottom: 35px;
+}
+.insta-img{
+    align-items: center;
+    display: flex;
+    justify-content:center
+}
+.insta-img .insta-img-group{
+    width: 200px;
+    margin: 10px;
 }
