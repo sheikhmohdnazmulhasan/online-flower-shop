@@ -100,6 +100,7 @@ main .featured-p {
 .f-1 {
     width: 394px;
     height: 468px;
+    margin: 10px;
     flex-shrink: 0;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
@@ -114,6 +115,7 @@ main .featured-p {
     width: 394px;
     height: 460px;
     flex-shrink: 0;
+    margin: 10px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
     transition: .5s;
@@ -126,6 +128,7 @@ main .featured-p {
 .f-3 {
     width: 394px;
     height: 468px;
+    margin: 10px;
     flex-shrink: 0;
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
@@ -378,3 +381,25 @@ border: 1px solid #fff;
     color: #272727;
 }
 /* Subscribe section end */
+/* footer section start */
+.footer{
+    width: 100%px;
+    height: 320px;
+    background: #212529;
+}
+.footer .foot-h1{
+    color: #fff;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 40px;
+}
+.footer .foot-p{
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+}
+.footer .foot-copy{
+    color: #a89494;
+    text-align: center;
+    padding-top: 25px;
+}
