@@ -188,7 +188,8 @@ main .featured-p {
     margin: 100px;
     transition: .5s;
 }
-.group-01 .img:hover{
+
+.group-01 .img:hover {
     background: #FF8989;
 }
 
@@ -278,6 +279,43 @@ main .featured-p {
 }
 
 /* hot deal section end */
+
+
+/* about section start */
+.about {
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+    background: border-radius: 8px;
+    background: #eee;
+    transition: .5s;
+}
+
+.about:hover {
+    background: #FEF6F8;
+}
+
+.about-text .about-h1 {
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 1.3em;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about-text .about-p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.3em;
+    margin: 2px 20px 30px 20px;
+}
+
+
+/* about section start */
 /* Subscribe Section start */
 .instagram {
     margin: 0px 20px 0px 20px;
@@ -358,10 +396,11 @@ line-height: normal;
     flex-shrink: 0;
     margin: 30px 0px 0px 0px;
     border-radius: 5px;
-background: #FFF;
-border: 1px solid #fff;
+    background: #FFF;
+    border: 1px solid #fff;
 }
-.input .sub-btn{
+
+.input .sub-btn {
     color: #fff;
     font-size: 15px;
     padding: 8.5px 20px;
@@ -375,30 +414,35 @@ border: 1px solid #fff;
     text-transform: uppercase;
     transition: .5s;
 }
+
 .input .sub-btn:hover {
     border: 1px solid #000;
     background: transparent;
     color: #272727;
 }
+
 /* Subscribe section end */
 /* footer section start */
-.footer{
+.footer {
     width: 100%px;
-    height: 320px;
+    height: 280px;
     background: #212529;
 }
-.footer .foot-h1{
+
+.footer .foot-h1 {
     color: #fff;
     text-align: center;
     padding-top: 100px;
     font-size: 40px;
 }
-.footer .foot-p{
+
+.footer .foot-p {
     color: #fff;
     text-align: center;
     padding-top: 20px;
 }
-.footer .foot-copy{
+
+.footer .foot-copy {
     color: #a89494;
     text-align: center;
     padding-top: 25px;
