@@ -104,6 +104,10 @@ main .featured-p {
     flex-shrink: 0;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
+    transition: .5s;
+}
+.f-1:hover{
+    background: #FF78C4;
 }
 
 .f-2 {
@@ -112,6 +116,10 @@ main .featured-p {
     flex-shrink: 0;
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
+    transition: .5s;
+}
+.f-2:hover{
+    background: #DB005B;
 }
 
 .f-3 {
@@ -120,7 +128,11 @@ main .featured-p {
     flex-shrink: 0;
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
+    transition: .5s;
 
+}
+.f-3:hover{
+    background: #F79327;
 }
 
 #f-1 {
@@ -176,20 +188,79 @@ main .featured-p {
     height: 50px;
     flex-shrink: 0;
 }
-.logo .group-p{
+
+.logo .group-p {
     font-size: 16px;
     font-weight: 600;
 }
-#img1{
+
+#img1 {
     margin-left: 85px;
 }
-#text-2{
+
+#text-2 {
     margin-right: 50px;
 }
-#img2{
+
+#img2 {
     margin-left: 85px;
 }
-#img3{
+
+#img3 {
     margin-left: 50px;
 }
+
 /* group section end */
+.hot-deal {
+    display: flex;
+    justify-content: space-around;
+    background: border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    ;
+}
+
+.hot-text .hot-h1 {
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 1.3em;
+    margin-top: 150px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.hot-text .hot-p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.3em;
+}
+
+.hot-img .hot-img-1 {
+    width: 272px;
+    height: 375px;
+    flex-shrink: 0;
+    margin-top: 80px;
+}
+.hot-text .sign-up-btn{
+    color: #fff;
+    font-size: 15px;
+    margin-left: 180px;
+    margin-top: 30px;
+    padding: 15px 40px;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    background: #E55473;
+    text-transform: uppercase;
+    transition: .5s;
+    text-align: center;
+}
+.hot-text .sign-up-btn:hover{
+    border: 1px solid #000;
+    background: transparent;
+    color: #272727;
+}
