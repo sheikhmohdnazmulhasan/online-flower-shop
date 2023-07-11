@@ -81,7 +81,6 @@ main .featured-p {
     margin-bottom: 40px;
 }
 
-
 .f1 {
     align-items: center;
     display: flex;
@@ -184,6 +183,10 @@ main .featured-p {
     background: rgba(39, 39, 39, 0.05);
     align-items: center;
     margin: 100px;
+    transition: .5s;
+}
+.group-01 .img:hover{
+    background: #FF8989;
 }
 
 .logo .g-123 {
@@ -220,7 +223,6 @@ main .featured-p {
     justify-content: space-around;
     background: border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
-    ;
 }
 
 .hot-text .hot-h1 {
@@ -246,6 +248,7 @@ main .featured-p {
     height: 375px;
     flex-shrink: 0;
     margin-top: 80px;
+    transition: .5s;
 }
 
 .hot-text .sign-up-btn {
@@ -272,9 +275,11 @@ main .featured-p {
 }
 
 /* hot deal section end */
-.instagram{
+/* Subscribe Section start */
+.instagram {
     margin: 0px 20px 0px 20px;
 }
+
 .insta-text h1 {
     color: #272727;
     text-align: center;
@@ -293,12 +298,83 @@ main .featured-p {
     line-height: 1.3em;
     margin-bottom: 35px;
 }
-.insta-img{
+
+.insta-img {
     align-items: center;
     display: flex;
-    justify-content:center
+    justify-content: center
 }
-.insta-img .insta-img-group{
+
+.insta-img .insta-img-group {
     width: 200px;
     margin: 10px;
 }
+
+.contact {
+    background: url("../images/Rectangle\ 9.png");
+    margin: 100px;
+    padding: ;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 10px;
+}
+
+/* #contact-h1-id{
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+} */
+
+.contact .contact-h1 {
+    color: #272727;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    padding-top: 100px;
+}
+
+.contact .contact-p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.input {
+    align-items: center;
+    text-align: center;
+}
+
+.input .email-input {
+    width: 350px;
+    height: 32px;
+    flex-shrink: 0;
+    margin: 30px 0px 0px 0px;
+    border-radius: 5px;
+background: #FFF;
+border: 1px solid #fff;
+}
+.input .sub-btn{
+    color: #fff;
+    font-size: 15px;
+    padding: 8.5px 20px;
+    margin-left: 15px;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background: #E55473;
+    text-transform: uppercase;
+    transition: .5s;
+}
+.input .sub-btn:hover {
+    border: 1px solid #000;
+    background: transparent;
+    color: #272727;
+}
+/* Subscribe section end */
